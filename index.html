@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neon Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator">
+    <h1>Calculator</h1>
+    <input type="text" id="display" disabled />
+    <div class="buttons">
+      <!-- Numbers Section -->
+      <div class="numbers-section">
+        <div class="numbers">
+          <button onclick="appendValue('7')">7</button>
+          <button onclick="appendValue('8')">8</button>
+          <button onclick="appendValue('9')">9</button>
+          <button onclick="appendValue('4')">4</button>
+          <button onclick="appendValue('5')">5</button>
+          <button onclick="appendValue('6')">6</button>
+          <button onclick="appendValue('1')">1</button>
+          <button onclick="appendValue('2')">2</button>
+          <button onclick="appendValue('3')">3</button>
+          <button onclick="appendValue('0')">0</button>
+          <button onclick="appendValue('.')">.</button>
+          <button onclick="calculateResult()">=</button>
+        </div>
+      </div>
+
+      <!-- Operations Section -->
+      <div class="operations">
+        <div class="col">
+          <button class="operation" onclick="appendValue('+')">+</button>
+          <button class="operation" onclick="appendValue('-')">-</button>
+          <button class="operation" onclick="appendValue('*')">x</button>
+          <button class="operation" onclick="appendValue('/')">/</button>
+        </div>
+        <div class="col">
+          <button class="operation" onclick="appendValue('^')">^</button>
+          <button class="special-btn" onclick="deleteLast()">⌫</button>
+          <button class="special-btn" onclick="clearDisplay()">C</button>
+          <button class="operation" onclick="appendValue('%')">%</button>
+          <button class="operation" onclick="calculateFactorial()">!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Made by Shashank Singh</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
