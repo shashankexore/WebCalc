@@ -7,13 +7,6 @@ A stylish and functional calculator built using HTML, CSS, and JavaScript. This 
 - **Error Handling**: Displays an error message for invalid operations.
 - **Interactive Interface**: Smooth hover and click animations for buttons.
 
-## How to Use
-**Clone or Download the Repository**
-   - You can clone the repository using Git or download it as a ZIP file.
-
-   ```bash
-   git clone https://github.com/your-username/neon-calculator.git
-
 ## Files
 - **index.html**: The HTML structure for the calculator.
 - **styles.css**: CSS styles providing the neon design and animations.
@@ -28,3 +21,9 @@ A stylish and functional calculator built using HTML, CSS, and JavaScript. This 
 
 ## Credits
 Made by Shashank Singh
+
+**Clone or Download the Repository**
+   - You can clone the repository using Git or download it as a ZIP file.
+
+   ```bash
+   git clone https://github.com/your-username/neon-calculator.git
